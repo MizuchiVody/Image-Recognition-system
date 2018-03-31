@@ -7,11 +7,11 @@ import cv2
 # 'C:/Users/user/Desktop/The new ultimate/Computer science/PYTHON programming/ROV Software/shapes_and_colors.jpg'
 # 'C:/Users/user/Desktop/The new ultimate/Robotics and mechatronics/UnderWater '
 #    'ROV/ROV2018MizuchyVody/ROVsoftware/TailSection2.jpg'
-#'C:/Users/user/Desktop/The new ultimate/Robotics and mechatronics/UnderWater '
+# 'C:/Users/user/Desktop/The new ultimate/Robotics and mechatronics/UnderWater '
 #   'ROV/ROV2018MizuchyVody/ROVsoftware/d3d5792c-6a01-4f6e-a329-c029695e5fd2.jpg'
 image = cv2.imread(
     'C:/Users/user/Desktop/The new ultimate/Robotics and mechatronics/UnderWater '
-    'ROV/ROV2018MizuchyVody/ROVsoftware/TailSection2.jpg', -1)
+    'ROV/ROV2018MizuchyVody/ROVsoftware/TailSection5.jpg', -1)
 
 resized = imutils.resize(image, width=300)
 ratio = image.shape[0] / float(resized.shape[0])
